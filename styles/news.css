@@ -24,13 +24,13 @@
 }
 
 .news__item--first {
-  background-image: url("/img/main/plain.jpg");
+  background-image: url("./img/main/plain.jpg");
    object-fit: cover;
   margin-right: 25px;
 }
 
 .news__item--second {
-  background-image: url("/img/main/surfer.jpg");
+  background-image: url("./img/main/surfer.jpg");
 }
 
 .news__list--wrapper {

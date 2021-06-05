@@ -12,7 +12,7 @@
   vertical-align: top;
   width: 490px;
   height: 505px;
-  background: url("/img/main/gates.jpg") center center / cover no-repeat;
+  background: url("./img/main/gates.jpg") center center / cover no-repeat;
   z-index: -10;
   border-radius: 5px;
 }
@@ -22,7 +22,7 @@
   vertical-align: top;
   width: 785px;
   min-height: 455px;
-  background: url("/img/main/mountains.jpg") center center / cover no-repeat;;
+  background: url("./img/main/mountains.jpg") center center / cover no-repeat;;
   padding: 68px 203px 66px 81px;
   margin-left: -140px;
   margin-top: 97px;
