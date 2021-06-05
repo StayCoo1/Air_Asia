@@ -1,0 +1,86 @@
+.offers {
+  display: inline-block;
+  width: 1140px;
+  /* min-height: 550px; */
+  box-sizing: border-box;
+  margin-top: 0px;
+  margin-bottom: 125px;
+  font-size: 0px;
+}
+
+.title {
+  font-size: 36px;
+  margin: 0px;
+  min-width: 320px;
+  padding-left: 2px;
+  margin-bottom: 50px;
+}
+
+.offers__item {
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 26px;
+  min-height: 450px;
+  width: 362px;
+  font-size: 14px;
+  border-radius: 5px 5px 5px 5px;
+  background: #fff;
+}
+
+.offers__item:last-child {
+  margin-right: 0px;
+}
+
+.offers__preview {
+  border-radius: 5px 5px 0px 0px;
+  margin-bottom: 29px;
+}
+
+.offer {
+  padding-left: 22px;
+  padding-right: 16px;
+}
+
+.offer__title {
+  font-weight: bold;
+  font-size: 24px;
+  color: #000;
+  margin: 0px;
+  margin-bottom: 20px
+  }
+
+  .offer__features {
+    margin-bottom: 10px;
+  }
+
+.offer__feature {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 15px;
+}
+
+.offer__icon {
+  display: inline-block;
+  vertical-align: middle;
+  padding-left: 6px;
+}
+
+.offer__text {
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 16px;
+  padding-left: 7px;
+  color: #666;
+}
+
+.offers__text {
+  font-size: 14px;
+  line-height: 1.5;
+  color: #303030;
+  margin-bottom: 23px;
+}
+
+.button--hot {
+  padding: 18px 30px;
+  margin-left: 2px;
+}

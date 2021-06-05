@@ -1,0 +1,75 @@
+footer {
+  width: 1140px;
+  height: 95px;
+  margin-bottom: 55px;
+}
+
+.footer__wrapper {
+  position: relative;
+  margin-top: 44px;
+}
+
+ul, li, .contacts__footer {
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.menu__bottom {
+  margin-right: 270px;
+}
+
+.social__link {
+  display: block;
+  width: 36px;
+  height: 36px;
+  background: center center no-repeat;
+}
+
+.social__item {
+  opacity: 1;
+  margin-right: 7px;
+}
+
+.social__item-telegram {
+  background-image: url(/img/footer/telegram.png);
+}
+
+.social__item-vk {
+  background-image: url(/img/footer/vk.png);
+}
+
+.social__item-facebook {
+  background-image: url(/img/footer/f.png);
+}
+
+.social__item-instagram {
+  background-image: url(/img/footer/in.png);
+}
+
+
+.social__item-telegram:hover {
+  background-image: url(/img/footer/t1.png);
+}
+
+.social__item-vk:hover {
+  background-image: url(/img/footer/vk1.png);
+}
+
+.social__item-facebook:hover {
+  background-image: url(/img/footer/f1.png);
+}
+
+.social__item-instagram:hover {
+  background-image: url(/img/footer/in1.png);
+}
+.contacts__footer {
+  position: absolute;
+  right: 0px;
+}
+
+.contacts__free {
+  text-align: right;
+  font-size: 11px;
+  color: #9A9A9A;
+}

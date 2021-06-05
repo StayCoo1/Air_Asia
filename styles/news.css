@@ -1,0 +1,76 @@
+.news {
+  height: 600px;
+  width: auto;
+  display: inline-block;
+  font-size: 0px;
+  margin-bottom: 125px;
+}
+
+.news__list {
+  margin-bottom: 55px;
+}
+
+.news__item {
+  display: inline-block;
+  position: relative;
+  vertical-align: top;
+  margin-right: 0px;
+  min-height: 394px;
+  width: 557px;
+  font-size: 16px;
+  line-height: 24px;
+  border-radius: 5px 5px 5px 5px;
+  padding: 0px 44px 0px 30px;   
+}
+
+.news__item--first {
+  background-image: url("/img/main/plain.jpg");
+   object-fit: cover;
+  margin-right: 25px;
+}
+
+.news__item--second {
+  background-image: url("/img/main/surfer.jpg");
+}
+
+.news__list--wrapper {
+  position: absolute;
+  bottom: 45px;
+}
+
+.date {
+  font-size: 14px;
+  margin-bottom: 14px;
+}
+
+.news__subtitle {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 0px;
+  margin-bottom: 10px;
+}
+
+.paginator__text {
+  margin-right: 25px;
+}
+
+.paginator__item {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.paginator__link {
+  display: block;
+  position: relative;
+  width: 32px;
+  height: 32px;
+  font-size: 16px;
+  line-height: 32px;
+  font-weight: bold;
+}
+
+.paginator__item--active .paginator__link, .paginator__item:hover {
+  color:#F5170E;
+  background-color: #fff;
+  border-radius: 50%;
+}
