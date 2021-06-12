@@ -1,0 +1,9 @@
+.flame:after {
+  margin-left: 10px;
+  content: "";
+  display: inline-block;
+  vertical-align: middle;
+  width: 21px;
+  height: 28px;
+  background: url('/img/flame.png');
+}

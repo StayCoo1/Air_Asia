@@ -1,0 +1,37 @@
+.offer {
+  padding: 30px 15px 25px 20px ;
+}
+
+.offer__title {
+  font-size: 24px;
+  font-weight: bold;
+  padding-bottom: 20px;
+}
+
+.offer__features {
+  display: flex;
+  justify-content: flex-start;
+  padding-bottom: 25px;
+}
+
+.offer__feature {
+  display: flex;
+  align-items: center;
+  padding-left: 5px;
+  padding-right: 25px;
+}
+
+.offer__icon {
+  max-width: 36px;
+}
+
+.offer__desc {
+  padding-left: 10px;
+  color: #666;
+  font-size: 16px;
+}
+
+.offer__text {
+  color: #303030;
+  padding-bottom: 25px;
+}

@@ -1,0 +1,24 @@
+.social {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 36px;
+  height: 36px;
+  background: center center no-repeat;
+  margin-right: 75px;
+}
+
+.social__item {
+  display: block;
+  margin-right: 10px;
+  opacity: 30%;
+}
+
+.social__item:hover {
+  opacity: 100%;
+  cursor: pointer;
+}
+
+.social__item:last-child {
+  margin-right: 0px;
+}

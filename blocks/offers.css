@@ -1,0 +1,31 @@
+.offers {
+  margin-bottom: 125px;
+}
+
+.container_offers {
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start
+}
+
+.title_hot {
+  width: 33%;
+  /* padding-bottom: 50px; */
+}
+
+.offers__list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.offers__item {
+  width: calc(100% / 3 - 17px);
+  overflow: hidden;
+  background-color: #fff;
+  border-radius: 5px;
+  color: #000;
+}
+
+.offers__preview {
+  width: 100%;
+}

@@ -1,0 +1,15 @@
+.button_alt {
+  display: inline-block;
+  background-color: #fff;
+  border-radius: 35px;
+  padding: 18px 30px;
+  color: #F5170E;
+  font-weight: bold;
+  text-transform: uppercase;
+  border: solid 1px #F5170E;
+}
+
+.button_alt:hover {
+  background-color: #DA0100;
+  color: #fff;
+}
