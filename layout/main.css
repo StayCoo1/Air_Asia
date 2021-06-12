@@ -1,25 +1,25 @@
-@import url('/layout/normalize.css');
-@import url('/layout/base.css');
+@import url('../layout/normalize.css');
+@import url('../layout/base.css');
 
-@import url('/styles/nav.css');
-@import url('/styles/contacts.css');
-@import url('/styles/button.css');
-@import url('/styles/button_alt.css');
-@import url('/styles/paginator.css');
-@import url('/styles/title.css');
-@import url('/styles/title_dark.css');
-@import url('/styles/social.css');
-@import url('/styles/flame.css');
+@import url('../styles/nav.css');
+@import url('../styles/contacts.css');
+@import url('../styles/button.css');
+@import url('../styles/button_alt.css');
+@import url('../styles/paginator.css');
+@import url('../styles/title.css');
+@import url('../styles/title_dark.css');
+@import url('../styles/social.css');
+@import url('../styles/flame.css');
 
 
-@import url('/blocks/header.css');
-@import url('/blocks/hello.css');
-@import url('/blocks/offers.css');
-@import url('/blocks/offer.css');
-@import url('/blocks/news.css');
-@import url('/blocks/about.css');
-@import url('/blocks/footer.css');
-@import url('/blocks/main-page.css');
+@import url('../blocks/header.css');
+@import url('../blocks/hello.css');
+@import url('../blocks/offers.css');
+@import url('../blocks/offer.css');
+@import url('../blocks/news.css');
+@import url('../blocks/about.css');
+@import url('../blocks/footer.css');
+@import url('../blocks/main-page.css');
 
 
 
