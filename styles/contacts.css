@@ -10,11 +10,13 @@
 }
 
 .contacts__workhours {
-  display: block;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: flex-end;
   font-size: 13px;
   color: #98A4A8;
   font-style: normal;
-  text-decoration: underline;
 }
 
 .contacts__workhours:hover {
@@ -22,9 +24,37 @@
   cursor: pointer;
 }
 
+.contacts__workhours-title {
+  text-decoration: underline;
+}
+
 .contacts__free {
   display: block;
   font-size: 11px;
   font-style: normal;
   color: #9A9A9A;
+}
+
+.contacts__dropdown {
+  display: none;
+  min-width: 160px;
+  min-height: 80px;
+  background: url('../img/Rectangle.png') center center no-repeat;
+  color: #1E1F20;
+  padding-top: 25px;
+  padding-left: 20px;
+}
+
+.contacts__dropdown-work {
+  font-weight: bold;
+}
+
+.contacts__dropdown-chill {
+  font-weight: 600;
+}
+
+.contacts__workhours:hover .contacts__dropdown {
+  display: block;
+  position: absolute;
+  top: 15px;
 }
