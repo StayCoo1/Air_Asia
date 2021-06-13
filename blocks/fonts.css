@@ -2,6 +2,7 @@
   background:url('../img/main/main1.png') center top no-repeat,   url("../img/main/main2.png") center 92% no-repeat;
 }
 
-.wrapper_services {
-  background:url('../img/services/headline.jpg') center top no-repeat;
+.hero {
+  background:url('../img/services/headline.jpg') center center no-repeat;
+  background-size: cover;
 }
