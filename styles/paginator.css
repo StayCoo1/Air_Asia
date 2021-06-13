@@ -11,7 +11,6 @@
 
 .paginator__list {
   display: flex;
-  align-items: center;
 }
 
 .paginator__item {
@@ -20,7 +19,6 @@
 
 .paginator__link {
   display: block;
-  position: relative;
   width: 32px;
   height: 32px;
   font-size: 16px;
@@ -29,7 +27,7 @@
 }
 
 .paginator__item_active, .paginator__item:hover {
-  color:#F5170E;
+  color: #F5170E;
   background-color: #fff;
   border-radius: 50%;
 }

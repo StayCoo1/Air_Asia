@@ -1,7 +1,7 @@
-.wrapper__bg-main {
+.wrapper_main {
   background:url('../img/main/main1.png') center top no-repeat,   url("../img/main/main2.png") center 92% no-repeat;
 }
 
-.wrapper__bg-services {
+.wrapper_services {
   background:url('../img/services/headline.jpg') center top no-repeat;
 }

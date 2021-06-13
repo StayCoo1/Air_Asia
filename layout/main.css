@@ -13,6 +13,8 @@
 @import url('../styles/title_dark.css');
 @import url('../styles/social.css');
 @import url('../styles/flame.css');
+@import url('../styles/breadcrumbs.css');
+
 
 /* Блоки страницы "Главная*/
 @import url('../blocks/header.css');

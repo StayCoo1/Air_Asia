@@ -1,9 +1,8 @@
-.paginator {
+.paginator_alt {
   color: #000;
 }
 
 .paginator__item_active, .paginator__item:hover {
-  color:#fff;
+  color: #fff;
   background-color: #F5170E;
-  border-radius: 50%;
 }

@@ -1,16 +1,16 @@
 .offer {
-  padding: 30px 15px 25px 20px ;
+  padding: 30px 15px 25px 20px;
 }
 
 .offer__title {
   font-size: 24px;
   font-weight: bold;
   padding-bottom: 20px;
+  color: #000;
 }
 
 .offer__features {
   display: flex;
-  justify-content: flex-start;
   padding-bottom: 25px;
 }
 
@@ -22,7 +22,7 @@
 }
 
 .offer__icon {
-  max-width: 36px;
+  max-height: 26px;
 }
 
 .offer__desc {
