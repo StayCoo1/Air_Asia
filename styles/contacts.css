@@ -40,12 +40,11 @@
   right: 99999px;
   width: 160px;
   height: 80px;
-  background: url('../img/Rectangle.png') center center no-repeat;
+  background: url('../img/main/Rectangle.png') center center no-repeat;
   color: #1E1F20;
   padding-top: 25px;
   padding-left: 20px;
   opacity: 0;
-  /* transition: opacity 1s; */
 }
 
 .contacts__dropdown-work {

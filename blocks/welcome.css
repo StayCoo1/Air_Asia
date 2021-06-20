@@ -14,7 +14,7 @@
 }
 
 .welcome__content {
-  background: url("../img/shades.png");
+  background: url("../img/welcome/shades.png");
   display: flex;
   align-items: center;
   flex-direction: column;
