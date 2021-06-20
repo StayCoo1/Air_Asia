@@ -6,8 +6,10 @@
   font-weight: bold;
   text-transform: uppercase;
   cursor: pointer;
+  transition: background-color 0.5s;
 }
 
 .button:hover {
   background-color: #DA0100;
+  transition: background-color 0.5s;
 }

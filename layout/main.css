@@ -14,6 +14,9 @@
 @import url('../styles/social.css');
 @import url('../styles/flame.css');
 @import url('../styles/breadcrumbs.css');
+@import url('../styles/form.css');
+@import url('../styles/tag.css');
+
 
 
 /* Блоки страницы "Главная*/
@@ -30,3 +33,12 @@
 /* Блоки страницы "Услуги" */
 @import url('../blocks/hero.css');
 @import url('../blocks/tours.css');
+
+/* Блоки страницы "Отзывы" */
+@import url('../blocks/recall.css');
+@import url('../blocks/reviews.css');
+@import url('../blocks/banner.css');
+@import url('../blocks/feedback.css');
+
+/* Блоки страницы "Welcome" */
+@import url('../blocks/welcome.css');

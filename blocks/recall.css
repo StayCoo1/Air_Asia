@@ -1,0 +1,10 @@
+.recall {
+  background-color: #Fff;
+  padding-bottom: 65px;
+}
+
+
+.container__recall {
+  flex-direction: column;
+  margin-top: 100px;
+}

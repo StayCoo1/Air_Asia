@@ -36,13 +36,16 @@
 }
 
 .contacts__dropdown {
-  display: none;
-  min-width: 160px;
-  min-height: 80px;
+  position: absolute;
+  right: 99999px;
+  width: 160px;
+  height: 80px;
   background: url('../img/Rectangle.png') center center no-repeat;
   color: #1E1F20;
   padding-top: 25px;
   padding-left: 20px;
+  opacity: 0;
+  /* transition: opacity 1s; */
 }
 
 .contacts__dropdown-work {
@@ -55,6 +58,9 @@
 
 .contacts__workhours:hover .contacts__dropdown {
   display: block;
+  right: 0px;
   position: absolute;
   top: 15px;
+  opacity: 1;
+  transition: opacity 1s;
 }

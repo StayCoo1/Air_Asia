@@ -4,11 +4,6 @@
 
 .container_offers {
   flex-direction: column;
-  align-items: flex-start
-}
-
-.title_hot {
-  width: 33%;
 }
 
 .offers__list {
@@ -21,6 +16,8 @@
   overflow: hidden;
   background-color: #fff;
   border-radius: 5px;
+  display: flex;
+  flex-direction: column;
 }
 
 .offers__preview {

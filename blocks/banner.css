@@ -1,0 +1,23 @@
+.banner {
+  display: flex;
+  background: url("../img/recall/banner.jpeg") center center no-repeat;
+  background-size: cover;
+  min-height: 360px;
+}
+
+.banner__container {
+  position: relative;
+  align-items: center;
+}
+
+.banner__title {
+  max-width: 50%;
+  font-size: 48px;
+  font-weight: 700;
+}
+
+.banner__image {
+  position: absolute;
+  right: 30px;
+  bottom: 0px;
+}

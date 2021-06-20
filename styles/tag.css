@@ -1,0 +1,13 @@
+.tag {
+  color: #303030;
+  font-size: 13px;
+  background-color: #E7E7E7;
+  padding: 10px 18px;
+  border-radius: 35px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+}
+
+.tag_active {
+  background-color: #B9EAE4;
+}

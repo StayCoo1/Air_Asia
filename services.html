@@ -4,14 +4,14 @@
 <head>
   <meta charset="UTF-8">
   <title>AirAsia | Услуги</title>
-  <!-- <meta name="viewport" content="width=1140, initial-scale=1.0"> -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./layout/main.css">
 </head>
 
 <body>
-  <div class="wrapper wrapper_services">
+  <div class="wrapper">
     <div class="wrapper__content">
       <section class="hero">
         <div class="container hero__container">
@@ -21,15 +21,15 @@
                 <img src="./img/logo.png" alt="AirAsia Logo" class="logo__img">
               </a>
               <nav class="menu">
-                <ul class="menu__list menu__list_active">
+                <ul class="menu__list">
                   <li class="menu__item">
-                    <a href="./index.html" class="menu__link menu__link_active">Главная</a>
+                    <a href="./index.html" class="menu__link">Главная</a>
                   </li>
                   <li class="menu__item">
-                    <a href="./services.html" class="menu__link">Услуги</a>
+                    <a href="./services.html" class="menu__link  menu__link_active">Услуги</a>
                   </li>
                   <li class="menu__item">
-                    <a href="" class="menu__link">Отзывы</a>
+                    <a href="./recall.html" class="menu__link">Отзывы</a>
                   </li>
                 </ul>
               </nav>
@@ -53,15 +53,14 @@
                 <a href="./index.html" class="breadcrumbs__link">Главная</a>
               </li>
               <li class="breadcrumbs__item breadcrumbs__item_active">
-                <!-- <a href="#" class="breadcrumbs__link">Услуги</a> -->
-                <span class="breadcrumbs__current-page">Услуги</span>
+                <a href="./services.html" class="breadcrumbs__link">Услуги</a>
               </li>
             </ul>
           </nav>
         </div>
       </section>
       <main class="tours">
-        <div class="container container_tours">
+        <div class="container tours__container">
           <ul class="tours__list">
             <li class="tours__item">
               <div class="tour">
@@ -74,7 +73,7 @@
                       публичных выступлений в домашних условиях. При создании генератора мы использовали
                       небезизвестный универсальный код речей. </p>
                   </div>
-                  <a href="#" class="button button_tour">Подробнее</a>
+                  <a href="#" class="button tour__button button_alt">Подробнее</a>
                 </div>
               </div>
             </li>
@@ -89,7 +88,7 @@
                       публичных выступлений в домашних условиях. При создании генератора мы использовали
                       небезизвестный универсальный код речей. </p>
                   </div>
-                  <a href="#" class="button button_tour">Подробнее</a>
+                  <a href="#" class="button tour__button button_alt">Подробнее</a>
                 </div>
               </div>
             </li>
@@ -152,7 +151,7 @@
               </a>
             </li>
             <li class="partnership__item">
-              <a href="https://www.flypgs.com/" target="blank">
+              <a href="https://www.flypgs.com/ru" target="blank">
                 <img src="./img/partnership/pegasus.png" alt="Logo" class="partnership__img">
               </a>
             </li>
@@ -177,44 +176,44 @@
           <a href="./index.html" class="logo">
             <img src="./img/logo.png" alt="AirAsia" class="logo__img">
           </a>
-          <nav class="menu menu__bottom">
+          <nav class="menu">
             <ul class="menu__list">
               <li class="menu__item">
-                <a href="./index.html" class="menu__link menu__link_active">Главная</a>
+                <a href="./index.html" class="menu__link">Главная</a>
               </li>
               <li class="menu__item">
-                <a href="./services.html" class="menu__link">Услуги</a>
+                <a href="./services.html" class="menu__link menu__link_active">Услуги</a>
               </li>
               <li class="menu__item">
-                <a href="" class="menu__link">Отзывы</a>
+                <a href="./recall.html" class="menu__link">Отзывы</a>
               </li>
             </ul>
           </nav>
         </div>
         <div class="footer__col">
           <ul class="social">
-            <li class="social__item  social__item-telegram">
+            <li class="social__item">
               <img src="./img/footer/t1.png" alt="telegram">
               <a href="#" class="social__link" target="_blank" aria-label="Наш телеграм">
               </a>
             </li>
-            <li class="social__item  social__item-vk">
+            <li class="social__item">
               <img src="./img/footer/vk1.png" alt="telegram">
               <a href="#" class="social__link" target="_blank" aria-label="Мы вконтакте">
               </a>
             </li>
-            <li class="social__item  social__item-facebook">
+            <li class="social__item">
               <img src="./img/footer/f1.png" alt="telegram">
               <a href="#" class="social__link" target="_blank" aria-label="Наш facebook">
               </a>
             </li>
-            <li class="social__item  social__item-instagram">
+            <li class="social__item">
               <img src="./img/footer/in1.png" alt="telegram">
               <a href="#" class="social__link" target="_blank" aria-label="Наш instagram">
               </a>
             </li>
           </ul>
-          <address class="contacts contacts__footer">
+          <address class="contacts">
             <div class="contacts__free">Бесплатный звонок по России</div>
             <a href="tel:+88007003030" class="contacts__phone contacts__phone--footer">8 800 700 30 30</a>
           </address>

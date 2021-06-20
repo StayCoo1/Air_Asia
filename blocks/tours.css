@@ -5,7 +5,7 @@
   flex: 1;
 }
 
-.container_tours {
+.tours__container {
   flex-direction: column;
 }
 
@@ -51,6 +51,6 @@
   font-size: 16px;
 }
 
-.button_tour {
+.tour__button {
   padding: 18px 40px;
 }
